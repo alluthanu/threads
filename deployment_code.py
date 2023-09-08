@@ -44,7 +44,7 @@ user_input = st.text_area(" ")
 
 if user_input:
     user_input = clean_text(user_input)
-    user_input = remove_punctuation(user_input)
+    # user_input = remove_punctuation(user_input)
     user_input = user_input.lower()
     user_input = tokenization(user_input)
     user_input = remove_stopwords(user_input)
