@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1DM6pd46w2Z_l2d4Ws4V--1yuUKm47pUY
 """
 
-pip install streamlit #inoreder to create web app using python code
+pip install streamlit 
 
 import streamlit as st
 import pickle
